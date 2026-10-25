@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Collaborative Workspace Application",
     description:
-      "Developed backend functionality for workspace and document-related operations. Used PostgreSQL and Prisma ORM for relational database management, implemented real-time communication features, and organized backend components for maintainability.",
+      "Real-time collaborative workspace where multiple users can work on documents together. I handled the whole backend — data modelling with Prisma, live sync with Socket.IO, and keeping the codebase easy to extend.",
     technologies: [
       "Node.js",
       "Express.js",
@@ -22,7 +22,7 @@ const projects = [
     id: 2,
     title: "Secure Authentication & Authorization System",
     description:
-      "Developed backend authentication functionality using password hashing and token-based authentication. Implemented authorization mechanisms and role-based access control, organized backend functionality into modular components, and addressed API security requirements.",
+      "Full auth system from scratch — bcrypt hashing, JWT access/refresh tokens, role-based access control. I wanted to understand how security actually works under the hood, so I built it myself instead of reaching for a library.",
     technologies: ["Node.js", "Express.js", "JWT", "Password Hashing", "RBAC"],
     github: "https://github.com/PujanKadecha/SecureAuth",
     liveDemo: "https://secureauth-fullstack.vercel.app",
@@ -35,7 +35,7 @@ const projects = [
     id: 3,
     title: "E-Commerce Backend API",
     description:
-      "Developed REST API functionality for e-commerce resources and CRUD operations. Implemented request validation and structured error handling, integrated database models with API endpoints, and organized application functionality into modular backend components.",
+      "REST API for a basic e-commerce setup — products, orders, carts. I focused on clean route structure, solid input validation, and making sure errors are handled in a way that doesn't leave the client guessing.",
     technologies: [
       "Node.js",
       "Express.js",

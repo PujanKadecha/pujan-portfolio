@@ -26,7 +26,7 @@ export default function Education() {
         </p>
 
         <h2 className="text-3xl font-bold text-white sm:text-4xl">
-          Academic background
+          My education
         </h2>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">

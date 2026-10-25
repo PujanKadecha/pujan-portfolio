@@ -43,20 +43,15 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-blue-400/20 bg-blue-400/5 px-4 py-2 text-sm text-blue-300">
-            <span className="h-2 w-2 rounded-full bg-emerald-400" />
-            Junior Node.js Backend Developer
-          </div>
-
           <h1 className="max-w-3xl text-5xl font-bold leading-tight tracking-tight text-white sm:text-6xl lg:text-7xl">
-            Building reliable
-            <span className="block text-blue-400">backend systems.</span>
+            I build things that
+            <span className="block text-blue-400">actually work.</span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
-            I'm Pujan Kadecha, a backend developer focused on Node.js, REST
-            APIs, PostgreSQL, and building secure, maintainable server-side
-            applications.
+            Hey, I'm Pujan — a backend developer who likes clean code, solid
+            APIs, and not reinventing the wheel. I mostly work with Node.js,
+            PostgreSQL, and whatever it takes to ship something reliable.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">
@@ -64,7 +59,7 @@ export default function Hero() {
               href="#projects"
               className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-3.5 font-semibold text-white transition hover:bg-blue-500"
             >
-              Explore my work
+              See my projects
               <ArrowRight size={18} />
             </a>
 

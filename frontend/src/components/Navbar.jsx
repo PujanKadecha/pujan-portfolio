@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#080d1a]/90 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
         <a href="#home" className="text-xl font-bold tracking-tight">
-          Pujan Prtfolio
+          Pujan Kadecha
         </a>
 
         <div className="hidden items-center gap-7 md:flex">
